@@ -1,0 +1,8 @@
+    /**
+     * 自动生成：by WaTaNaBe on {{now}}.
+     * {{title}}
+     * @param params
+     * @return
+     */
+    @POST(ApiMethods.{{name}})
+    Observable<{{response}}> {{name}}(@Body {{params}} params);

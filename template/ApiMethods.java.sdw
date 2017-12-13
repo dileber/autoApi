@@ -1,0 +1,5 @@
+    /**
+     * 自动生成：by WaTaNaBe on {{now}}.
+     * {{title}}
+     */
+    public static final String {{name}} = "{{url}}";

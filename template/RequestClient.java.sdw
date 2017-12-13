@@ -1,0 +1,10 @@
+    /**
+     * 自动生成：by WaTaNaBe on {{now}}.
+     * {{title}}
+     * @param params
+     * @return
+     */
+    public static Observable<{{response}}> {{name}}({{params}} params){
+        return ApiServiceClient.getDefault(HostType.NewVersion).{{name}}(params)
+                .compose(RxTransformerHelper.<{{response}}>ioToUI());
+    }

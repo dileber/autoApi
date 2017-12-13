@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<template>
+
+    <parameter
+        id="title"
+        name="title"/>
+
+    <parameter
+        id="urlpost"
+        name="urlpost"/>
+
+</template>  

@@ -1,0 +1,10 @@
+package com.xiaohe.baonahao_school.api2.response;
+
+/**
+ * 自动生成：by WaTaNaBe on {{now}}.
+ * {{title}}
+ */
+public class {{response}} extends BaseResponse {
+
+   
+}

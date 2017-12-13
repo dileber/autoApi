@@ -1,0 +1,29 @@
+package com.xiaohe.baonahao_school.api2.engine.params;
+
+import com.xiaohe.baonahao_school.api2.Api;
+
+import java.util.HashMap;
+import java.util.Map;
+
+/**
+ * 自动生成：by WaTaNaBe on {{now}}.
+ * {{title}}
+ */
+
+public class {{params}} extends BaseParams {
+
+    public static class Builder {
+        {{params}} params;
+        public Builder(){
+            params = new {{params}}();
+
+        }
+
+
+        public {{params}} build() {
+            return params;
+        }
+
+    }
+
+}
