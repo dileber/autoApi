@@ -1,0 +1,17 @@
+    /**
+     * 自动生成：by WaTaNaBe on {{now}}.
+     * {{title}}
+     * @param params
+     * @return
+     */
+    @Override
+    public Observable<{{response}}> {{name}}({{params}} params) {
+
+        Observable<{{response}}> observable = Observable.unsafeCreate(new Observable.OnSubscribe<{{response}}>() {
+            @Override
+            public void call(Subscriber<? super {{response}}> subscriber) {
+                subscriber.onCompleted();
+            }
+        });
+        return observable;
+    }

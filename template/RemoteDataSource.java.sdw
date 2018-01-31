@@ -1,0 +1,11 @@
+    /**
+     * 自动生成：by WaTaNaBe on {{now}}.
+     * {{title}}
+     * @param params
+     * @return
+     */
+    @Override
+    public Observable<{{response}}> {{name}}({{params}} params) {
+        return ApiServiceClient.getDefault(HostType.NewVersion).{{name}}(params);
+    }
+

@@ -1,0 +1,22 @@
+    /**
+     * 自动生成：by WaTaNaBe on {{now}}.
+     * {{title}}
+     * @param params
+     * @return
+     */
+    @Override
+    public Observable<{{response}}> {{name}}({{params}} params) {
+        Observable<{{response}}> observable = Observable.
+                concat(localDataSource.{{name}}(params),
+                        remoteDataSource.{{name}}(params).
+                                doOnNext(new Action1<{{response}}>() {
+                                    @Override
+                                    public void call({{response}} response) {
+                                        /**
+                                         * cache
+                                         */
+                                    }
+                                })).compose(RxTransformerHelper.<{{response}}>ioToUI()).first();
+        return observable;
+    }
+

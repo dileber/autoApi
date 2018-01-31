@@ -12,6 +12,7 @@ public class AutoApi {
     public JLabel lable2;
     public JTextField textField2;
     public JLabel lable1;
+    public JTextField textField3;
 
     private void createUIComponents() {
         // TODO: place custom component creation code here

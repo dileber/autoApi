@@ -9,4 +9,8 @@
         id="urlpost"
         name="urlpost"/>
 
+    <parameter
+        id="repository"
+        name="repository"/>
+
 </template>  

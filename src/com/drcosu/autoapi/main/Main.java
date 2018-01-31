@@ -34,6 +34,7 @@ public class Main {
 
                 String urlpost = autoApi.textField1.getText();
                 String title =  autoApi.textField2.getText();
+                String repository = autoApi.textField3.getText();
                 String params = UString.captureName(title + "Params");
                 String now = UTime.getBeijingNowTime(UTime.Pattern.y_m_d_h_m_s);
                 String name = title;
@@ -46,6 +47,7 @@ public class Main {
                 map.put("name",name);
                 map.put("url",url);
                 map.put("response",response);
+                map.put("repository",repository);
 
 
 
